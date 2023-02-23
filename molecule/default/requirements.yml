@@ -1,2 +1,5 @@
 ---
-- src: geerlingguy.java
+roles:
+  - src: geerlingguy.java
+collections:
+  - name: community.general
