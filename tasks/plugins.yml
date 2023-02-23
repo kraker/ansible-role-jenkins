@@ -27,7 +27,7 @@
     proxy_env:
       http_proxy: "{{ jenkins_proxy_host }}:{{ jenkins_proxy_port }}"
       https_proxy: "{{ jenkins_proxy_host }}:{{ jenkins_proxy_port }}"
-  when: 
+  when:
     - jenkins_proxy_host != ""
     - jenkins_proxy_port != ""
 
